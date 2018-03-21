@@ -1,5 +1,5 @@
 def display_board
-  puts board = [" "," "," "," "," "," "," "," "," "]
+  puts "[" "," "," "," "," "," "," "," "," "]"
   output = capture_puts
   rows = output.split
 end
