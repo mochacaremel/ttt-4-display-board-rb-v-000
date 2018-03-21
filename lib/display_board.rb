@@ -1,4 +1,5 @@
 def display_board
+  board = [" "," "," "," "," "," "," "," "," "]
   (rows[0]).to eq("   |   |   ")
   (rows[1]).to eq("-----------")
   (rows[2]).to eq("   |   |   ")
