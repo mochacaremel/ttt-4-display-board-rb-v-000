@@ -1,4 +1,4 @@
-def display_board
+def lib/display_board
   puts board = {" "," "," "," "," "," "," "," "," "}
     #{rows[0]}"  #{rows[1]}"   #{rows[2]}"
 end
