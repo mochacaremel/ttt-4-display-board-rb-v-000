@@ -1,5 +1,7 @@
 def display_board
   puts board = [" "," "," "," "," "," "," "," "," "]
+  output = capture_puts{ display_board(board) }
+  rows = output.split
 end
 
 # def display_rainbow(color)
