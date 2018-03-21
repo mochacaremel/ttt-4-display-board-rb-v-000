@@ -1,7 +1,9 @@
 def display_board
   puts board = {" "," "," "," "," "," "," "," "," "}
-display_board(board)  {"#rows[0]"}
 end
+
+
+# display_board(board)  {"#rows[0]"}
 
 # ```ruby
 # board = [" "," "," "," "," "," "," "," "," "]
