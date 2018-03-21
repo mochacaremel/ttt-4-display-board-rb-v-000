@@ -4,7 +4,6 @@ def display_board
   (rows[2]).to eq("   |   |   ")
   (rows[3]).to eq("-----------")
   (rows[4]).to eq("   |   |   ")
-  output = capture_puts
   rows = output.split
 end
 
