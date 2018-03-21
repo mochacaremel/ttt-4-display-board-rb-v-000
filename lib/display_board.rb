@@ -1,5 +1,9 @@
 def display_board
-  capture_puts = [9,"0"]
+  (rows[0]).to eq("   |   |   ")
+  (rows[1]).to eq("-----------")
+  (rows[2]).to eq("   |   |   ")
+  (rows[3]).to eq("-----------")
+  (rows[4]).to eq("   |   |   ")
   output = capture_puts
   rows = output.split
 end
