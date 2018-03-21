@@ -1,5 +1,5 @@
 def display_board
-  puts "[" "," "," "," "," "," "," "," "," "]"
+  puts "R: #{board[0]}, O: #{board[1]}, Y: #{board[2]}, G: #{board[3]}, B: #{board[4]}, I: #{board[5]}, V: #{board[6]}"
   output = capture_puts
   rows = output.split
 end
