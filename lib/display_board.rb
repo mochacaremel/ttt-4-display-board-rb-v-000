@@ -1,6 +1,6 @@
 def display_board
   puts board = {" "," "," "," "," "," "," "," "," "}
-  {"rows[0]"}
+display_board(board)  {"rows[0]"}
 end
 
 # ```ruby
