@@ -4,12 +4,13 @@ def display_board
   (rows[2]).to eq("   |   |   ")
   (rows[3]).to eq("-----------")
   (rows[4]).to eq("   |   |   ")
-  rows = output.split
 end
 
 # def display_rainbow(color)
 #   puts "R: #{color[0]}, O: #{color[1]}, Y: #{color[2]}, G: #{color[3]}, B: #{color[4]}, I: #{color[5]}, V: #{color[6]}"
 # end
+
+# rows = output.split
 
   #{}"{rows[0]}", "{rows[1]}", "{rows[2]}"
 
